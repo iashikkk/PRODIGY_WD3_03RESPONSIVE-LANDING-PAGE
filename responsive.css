@@ -1,0 +1,97 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .navbar {
+    background: #87e2a1;
+    color: rgb(29, 1, 1);
+    padding: 1em 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-links a {
+    color: rgb(8, 0, 0);
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: img src="photo1.png" alt="Portfolio 1" no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
+    border-image-width: 100px;
+  }
+  
+  .hero .btn {
+    padding: 0.8em 2em;
+    background: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+  }
+  
+  /* Services */
+  .services {
+    padding: 2em 1em;
+    text-align: center;
+  }
+  
+  .service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+  }
+  
+  .card {
+    background: #f7f7f7;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  
+  /* Portfolio */
+  .portfolio {
+    padding: 2em 1em;
+  }
+  
+  .portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+  }
+  
+  .portfolio-gallery img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact */
+  .contact {
+    padding: 2em 1em;
+    text-align: center;
+  }
+  
+  footer {
+    background: #872c2c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+ 
